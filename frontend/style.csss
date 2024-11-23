@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f7f4;  /* Light cream background */
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+header {
+    background-color: #fff;  /* White background */
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav .logo h1 {
+    font-size: 32px;
+    color: #2a2a2a;  /* Dark gray color */
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.search-bar input:focus {
+    border-color: #ff6f61;  /* Soft Etsy-inspired coral color */
+}
+
+.cart a {
+    font-size: 20px;
+    color: #ff6f61;  /* Etsy-inspired coral color */
+    text-decoration: none;
+}
+
+.cart a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #f1e5d1;  /* Soft, light beige background */
+    text-align: center;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.banner h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2a2a2a;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* Product Grid */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.products h2 {
+    font-size: 30px;
+    color: #2a2a2a;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;  /* Ensures the image maintains its aspect ratio */
+}
+
+.product h3 {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.product p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #ff6f61;  /* Soft coral button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #e5584d;  /* Slightly darker coral for hover effect */
+}
+
+/* Footer */
+footer {
+    background-color: #2a2a2a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

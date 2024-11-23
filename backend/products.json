@@ -1,0 +1,7 @@
+[
+    
+    { "id": "1", "name": "Hinges", "price": "100", "image": "images/hinges.jpg"},
+    { "id": "2", "name": "Handles", "price": "200" },
+    { "id": "3", "name": "Channels", "price": "300" }
+
+]
